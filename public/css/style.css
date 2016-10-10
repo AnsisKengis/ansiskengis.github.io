@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    height:90px;
+    position: fixed;
+    background-color: navajowhite;
+    margin-top: -10px;
+}
+#header_content {
+    width: 100%;
+    height:90px;
+    position: fixed;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.dropdown-menu {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    display: inline-block;
+}
+
+#first_block {
+    background-color: #c7ddef;
+    width: 100%;
+    text-align: center;
+    line-height: 20em;
+}
+#second_block {
+    background-color: #dddddd;
+    font-size: 50px;
+    text-align: center;
+
+}
+#third_block {
+    background-color: #f0ad4e;
+    font-size: 50px;
+    text-align: center;
+}
+#fourth_block {
+    background-color: #c7ddef;
+    font-size: 50px;
+    text-align: center;
+}
+#fifth_block{
+    background-color: #5e5e5e;
+    font-size: 50px;
+    text-align: center;
+}
+#footer {
+    background-color: #c7ddef;
+    text-align: center;
+}
+
+.landing-page section {
+    height: 350px; width: 100%;
+}
+
