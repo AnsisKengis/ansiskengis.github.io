@@ -58,7 +58,26 @@ ul li {
     text-decoration: none;
     -webkit-border-radius: 5px;
 }
-
-
-
+.navbar {
+    background-color: #737373;
+}
+#tekst {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    padding-top:  300px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+a .navbar-brand {
+    color: white;
+}
+.section-wrap {
+    background: url("../images/workspace.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
