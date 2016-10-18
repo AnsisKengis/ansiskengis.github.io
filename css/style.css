@@ -25,7 +25,7 @@ text-align: center;
     margin-right: 50px;
 }
 #header img {
-    margin-left: 70 px;
+    margin-left: 70px;
 }
 
 ul {
@@ -34,9 +34,8 @@ ul {
 
 }
 ul li {
-    float: right;
     height: 40px;
-    width: 170px;
+    width: 140px;
     text-align: center;
     line-height: 40px;
     list-style: none;
@@ -48,18 +47,19 @@ ul li {
     margin-right: 20px;
 }
 .navbar-default .navbar-nav li a {
-    color: white;
+    color: #777;
     text-decoration: none;
     display: block;
 }
 .navbar-default .navbar-nav li a:hover {
-    background-color: indianred;
+    background-color: #e2e2e2;
     color: white;
     text-decoration: none;
     -webkit-border-radius: 5px;
 }
 .navbar {
-    background-color: #737373;
+    background-color: whitesmoke;
+    margin-bottom: 0px;
 }
 #tekst {
     position: absolute;
@@ -70,14 +70,46 @@ ul li {
     padding-left: 200px;
     padding-right: 200px;
 }
+
 a .navbar-brand {
     color: white;
 }
-.section-wrap {
-    background: url("../images/workspace.jpg") no-repeat center center fixed;
+#size {
+    width: 100%;
+    height: auto;
+}#size1 {
+     width: 100%;
+     height: auto;
+ }
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar-header {
+    padding-left: 20px;
+}
+#logo {
+    width: 150px;
+}
+.collapse.navbar-collapse.nav.navbar-nav.navbar-right{
+    width: auto;
+
+}
+#button {
+    margin-right: 30px;
+}
+#third {
+    margin-bottom: 400px;
+}
+.banner {
+    background-image:url(../images/workspace.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 800px;
+}
+h1, h2 {
+    text-align: center;
 }
 
