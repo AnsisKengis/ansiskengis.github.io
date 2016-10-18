@@ -112,4 +112,24 @@ a .navbar-brand {
 h1, h2 {
     text-align: center;
 }
-
+#banner {
+    padding-top: 200px;
+}
+.modal-title{
+    color: white;
+}
+.panel-title {
+    color: white;
+}
+.title1 {
+    font-size: 60px;
+    color: white;
+}
+.title2 {
+    color: white;
+}
+.intro-content {
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+}
