@@ -241,27 +241,32 @@ p {
     -o-transition-duration: 0.5s;
 }
 
-/*
-    Multicoloured Hover Variations
-*/
-
 #social-fb:hover {
     color: #3B5998;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 #social-tw:hover {
     color: #4099FF;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 #social-gp:hover {
     color: #d34836;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 #social-em:hover {
     color: #f39c12;
+}
+
+#social-fb {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#social-tw {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#social-gp {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#social-em{
     margin-left: 10px;
     margin-right: 10px;
 }
