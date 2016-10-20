@@ -19,7 +19,10 @@ text-align: center;
     margin-right: 50px;
 }
 #header img {
-    margin-left: 70px;
+    margin-left: 0px;
+}
+#logo {
+    margin-left: 0px;
 }
 
 ul .nav.navbar-nav.navbar-right{
@@ -70,6 +73,9 @@ ul li {
 
 a .navbar-brand {
     color: white;
+}
+#logo_bar {
+    padding-left: 350px;
 }
 #size {
     width: 100%;
@@ -129,7 +135,7 @@ h1 {
     margin-left: 20px;
 }
 #main-navbar {
-    margin-right: 100px;
+    margin-right: 250px;
     text-align: center;
 }
 .img-responsive {
