@@ -28,9 +28,9 @@ text-align: center;
     margin-left: 70px;
 }
 
-ul {
+ul .nav.navbar-nav.navbar-right{
     padding: 0px;
-    margin-right: 100px;
+    margin-right: 200px;
 
 }
 ul li {
@@ -44,17 +44,16 @@ ul li {
     opacity: .8;
     text-shadow: 1px 1px 1px #999999;
     -webkit-border-radius: 5px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .navbar-default .navbar-nav li a {
-    color: #777;
+    color: black;
     text-decoration: none;
     display: block;
 
 }
 .navbar-default .navbar-nav li a:hover {
-    background-color: #e2e2e2;
-    color: white;
+    color: red;
     text-decoration: none;
     -webkit-border-radius: 5px;
 }
@@ -108,14 +107,12 @@ a .navbar-brand {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 800px;
+    min-height: 1000px;
 }
 h1, h2 {
     text-align: center;
 }
-#banner {
-    padding-top: 200px;
-}
+
 .modal-title{
     color: white;
 }
@@ -134,3 +131,42 @@ h1, h2 {
     color: white;
     margin-left: 20px;
 }
+#main-navbar {
+    margin-right: 100px;
+    text-align: center;
+}
+.img-responsive {
+    margin-left: 100px;
+}
+.intro-content {
+    padding-top: 200px;
+}
+#second_section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#third_section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#third_section_image {
+    background-image:url(../images/silver-background-1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 700px;
+}
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: #737373;
+}
+.heading {
+    font-size: 60px;
+}
+
