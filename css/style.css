@@ -253,20 +253,7 @@ p {
 #social-em:hover {
     color: #f39c12;
 }
-
-#social-fb {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-#social-tw {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-#social-gp {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-#social-em{
-    margin-left: 10px;
-    margin-right: 10px;
+.fa-3x {
+    margin-left: 5px;
+    margin-right: 5px;
 }
