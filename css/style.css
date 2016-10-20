@@ -9,12 +9,6 @@ body {
 .footer {
 text-align: center;
 }
-.landing-page  {
-    width: 100%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
 .header-links {
     display: inline-block;
     float: right;
@@ -59,6 +53,9 @@ ul li {
 }
 .navbar {
     background-color: whitesmoke;
+    margin-bottom: 0px;
+}
+.navbar.navbar-default {
     margin-bottom: 0px;
 }
 #tekst {
@@ -218,6 +215,9 @@ p {
     -o-background-size: cover;
     background-size: cover;
     min-height: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .social:hover {
     -webkit-transform: scale(1.1);
