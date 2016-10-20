@@ -74,9 +74,9 @@ ul li {
 a .navbar-brand {
     color: white;
 }
-#logo_bar {
-    padding-left: 350px;
-}
+/*#logo_bar {*/
+    /*padding-left: 350px;*/
+/*}*/
 #size {
     width: 100%;
     height: auto;
@@ -247,13 +247,21 @@ p {
 
 #social-fb:hover {
     color: #3B5998;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #social-tw:hover {
     color: #4099FF;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #social-gp:hover {
     color: #d34836;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #social-em:hover {
     color: #f39c12;
+    margin-left: 10px;
+    margin-right: 10px;
 }
