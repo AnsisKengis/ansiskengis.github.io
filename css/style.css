@@ -102,14 +102,14 @@ a .navbar-brand {
     margin-bottom: 400px;
 }
 .banner {
-    background-image:url(../images/workspace.jpg);
+    background-image:url(../images/banner.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     min-height: 1000px;
 }
-h1, h2 {
+h1 {
     text-align: center;
 }
 
@@ -139,7 +139,7 @@ h1, h2 {
     margin-left: 100px;
 }
 .intro-content {
-    padding-top: 200px;
+    padding-top: 280px;
 }
 #second_section {
     padding-top: 50px;
@@ -153,14 +153,14 @@ h1, h2 {
     margin-left: auto;
     margin-right: auto;
 }
-#third_section_image {
-    background-image:url(../images/silver-background-1.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 700px;
-}
+/*#third_section_image {*/
+    /*background-image:url(../images/silver-background-1.jpg);*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    /*min-height: 700px;*/
+/*}*/
 p {
     font-family: "Times New Roman", Times, serif;
     font-size: 30px;
@@ -169,4 +169,45 @@ p {
 .heading {
     font-size: 60px;
 }
-
+.heading1{
+    font-size: 60px;
+    margin: 0 0;
+}
+.text-center {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.client_logo {
+    min-height: 292.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.client_logo_image {
+    text-align: center;
+}
+.client_logo_size {
+    width: 270px;
+    height: 170px;
+}
+.intro_headers {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60   px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px #ac2925;
+}
+.intro_headers1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px #ac2925;
+}
+.line {
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    content: ' ';
+    width: 0;
+    height: 1px;
+    background-color: #ac2925;
+}
