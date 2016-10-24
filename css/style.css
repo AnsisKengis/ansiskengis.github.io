@@ -92,6 +92,7 @@ a .navbar-brand {
 }
 #logo {
     width: 150px;
+    vertical-align: middle;
 }
 .collapse.navbar-collapse.nav.navbar-nav.navbar-right{
     width: auto;
@@ -135,7 +136,6 @@ h1 {
     margin-left: 20px;
 }
 #main-navbar {
-    margin-right: 250px;
     text-align: center;
 }
 .img-responsive {
@@ -257,6 +257,3 @@ p {
     margin-left: 5px;
     margin-right: 5px;
 }
-/*.collapse.navbar-collapse {*/
-    /*text-align: center;*/
-/*}*/
